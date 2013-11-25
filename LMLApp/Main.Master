@@ -27,7 +27,7 @@
                         <li><a href="OurVision.aspx" class="main-site-menu-li">Our Vision</a></li>
                         <li><a href="ContactUs.aspx" class="main-site-menu-li">Contact Us</a></li>
                         <li><a href="FAQ.aspx" class="main-site-menu-li">F.A.Q</a></li>
-                        <li><a href="Home.aspx" class="main-site-menu-li">Login</a></li>                         
+                        <li><a href="UI/RegisterUser.aspx" class="main-site-menu-li">Register</a></li>                         
 			        </ul>
 			    </div><!--End of main-menu-->   
             </div><!--End of outer-main-menu-->
