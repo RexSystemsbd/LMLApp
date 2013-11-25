@@ -24,7 +24,7 @@
     <p>
         &nbsp;</p>
     <p>
-        My Member Informations:</p>
+        My Member Information:</p>
     <table class="style1">
         <tr>
             <td>
