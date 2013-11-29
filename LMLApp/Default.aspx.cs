@@ -11,6 +11,13 @@ namespace LMLApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            AccountSummary sumary = new AccountSummary();
+            sumary.Action = InvokeOperation.Type.SE;
+            sumary.CustomerID = Session["CustomerID"].ToString();
+
+            IList<AccountSummary> listofSecret;
+            var fd = new ProcessManager(sumary).GetObjectByID<AccountSummary>(sumary);           
+              
 
         }
     }

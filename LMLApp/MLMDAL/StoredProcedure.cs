@@ -42,6 +42,7 @@ namespace LMLApp
             Payments_SPInvestorTransfers,
             Setup_SPInvestor,
             Setup_SPCustomerSecret,
+            Payments_tblCustomerFinancialAccounts,
 
         }
     }

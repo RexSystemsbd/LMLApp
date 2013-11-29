@@ -66,6 +66,12 @@
     <Content Include="Login.aspx" />
     <Content Include="OurMission.aspx" />
     <Content Include="OurVision.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Styles\bootstrap-theme.css" />
+    <Content Include="Styles\bootstrap-theme.min.css" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\bootstrap.min.css" />
     <Content Include="Styles\reset.css" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
@@ -73,6 +79,7 @@
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
     <Content Include="Styles\style.css" />
+    <Content Include="UI\frmDonet.aspx" />
     <Content Include="UI\M2MTransfer.aspx" />
     <Content Include="UI\RegisterUser.aspx" />
     <Content Include="Web.config" />
@@ -91,6 +98,7 @@
     <Compile Include="AboutUs.aspx.designer.cs">
       <DependentUpon>AboutUs.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MLMCore\AccountSummary.cs" />
     <Compile Include="Account\ChangePassword.aspx.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -220,6 +228,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmDonet.aspx.cs">
+      <DependentUpon>frmDonet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\frmDonet.aspx.designer.cs">
+      <DependentUpon>frmDonet.aspx</DependentUpon>
     </Compile>
     <Compile Include="UI\M2MTransfer.aspx.cs">
       <DependentUpon>M2MTransfer.aspx</DependentUpon>

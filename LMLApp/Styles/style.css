@@ -10,7 +10,8 @@ html {
 }
 
 body {
-	font: 12px Tahoma, Geneva, sans-serif;	
+	font: 12px Geneva, sans-serif,Tahoma;	
+	background: black url(../images/bg.png);
 }
 
 article,header,footer,figure,section,aside,nav {
@@ -18,11 +19,13 @@ article,header,footer,figure,section,aside,nav {
 }
 
 #page-wrap {
-	width: 100%;		
+	width: 1000px;		
 	background-color: white;	
-	margin:0px;
+	margin:0px auto;
 	padding:0px;	
 	overflow:hidden;	
+	border: 5px solid #444;
+	background: black url(../images/bg.png);
 }
 
 #outer-header
@@ -35,9 +38,9 @@ article,header,footer,figure,section,aside,nav {
 
 #header {		
 	height: 200px;
-	width:1000px;
+	width:995px;
 	background-color: #EEAA25;
-	margin:0 auto;
+	margin:0px 0px -10px 0px;
 }
 
 #header h1 {
@@ -71,7 +74,7 @@ article,header,footer,figure,section,aside,nav {
 
 #main-menu {	
 	height:35px;
-	width:1000px;	
+	width:995px;	
 	background: #111;
     background: -moz-linear-gradient(#444, #111);
     background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
@@ -110,14 +113,13 @@ article,header,footer,figure,section,aside,nav {
 }
 
 #menu li{
-        float: left;
-        padding: 0 0 10px 0;
+        float: left;        
         position: relative;
 }
 
 #menu a{
         float: left;
-        height: 25px;
+        height: 35px;
         padding: 5px 7px;
         color: #999;
         text-transform: capitalize;
@@ -321,7 +323,7 @@ article,header,footer,figure,section,aside,nav {
 }
 #main-content {
 	float: left;
-	width: 1000px;	
+	width:995px;
 	background-color: white;	
 	padding: 0px;
     margin: 0px;
@@ -342,21 +344,29 @@ article,header,footer,figure,section,aside,nav {
     background: linear-gradient(#444, #111); 
     padding: 0px;
     margin: 0px; 
-    min-height:50px;
+    min-height:60px;
     color: #999;
 }
 
 #footer { 
-	width: 1000px; 
-	margin: 0 auto; 	
+	width:995px;
+	background: #111;
+    background: -moz-linear-gradient(#444, #111);
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0, #111),color-stop(1, #444));
+    background: -webkit-linear-gradient(#444, #111);
+    background: -o-linear-gradient(#444, #111);
+    background: -ms-linear-gradient(#444, #111);
+    background: linear-gradient(#444, #111);
+    min-height:50px;
+    color: #999;		
 	letter-spacing: 1.5px; 
-	text-align:center;
+	text-align:center;	
 }
 	
 #copy-right { 
 	float: left; 	
-	width: 100%;
-	padding: 20px;	
+	width: 1000px;
+	padding: 10px;	
 	text-align: center; 
 }
 
@@ -366,6 +376,13 @@ article,header,footer,figure,section,aside,nav {
     padding: 5px;
     height: 30px;
     font-size: 14px;
+}
+
+label{
+    width:300px;
+    float: left;
+    text-align:right;
+    padding: 5px 10px 0px 0px;
 }
 	
 legend {
@@ -516,7 +533,7 @@ table tr td a {
 }
 
 #login li{        
-        padding: 0 0 3px 160px;  
+        padding: 0 0 3px 145px;  
         list-style-type: none;      
 }
 
@@ -527,6 +544,47 @@ table tr td a {
         text-transform: capitalize;
         font: bold 14px/28px Arial, Helvetica;        
         text-shadow: 0 1px 0 #000;
+}
+
+
+.page-title {    
+    color: #999;
+    text-transform: capitalize;
+    font: bold 20px/34px Helvetica,sans-serif;    
+    text-shadow: 0 2px 0 #000;
+    padding: 0px 20px; 
+    margin: 0px;
+    margin: 10px 0px;
+}
+
+/******************************MainContent****************************************/
+
+#main-content p:first-child
+{
+    margin-top: 20px;
+}
+
+#main-content p
+{
+    color: black;
+    text-shadow: 0 1px 0 #999;
+    padding: 3px 0px;
+    padding: 0px 20px; 
+    font: 14px Geneva, sans-serif,Tahoma;	   
+}
+
+#main-content p:last-child
+{
+    margin-bottom: 20px;
+}
+
+
+.error
+{
+    display: inline;
+    padding: 0px 5px;
+    font:14px geneva;
+    font-weight:bold;
 }
 
 
