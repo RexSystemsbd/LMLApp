@@ -50,36 +50,36 @@
                 <td>
                     FULL Name</td>
                 <td>
-                    <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblFullName" runat="server" Text="txtFullName"></asp:Label>
                 </td>
                 <td>
                     Total Sponsor</td>
                 <td>
-                    <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblTotalSponsor" runat="server" Text=""></asp:Label>
                 </td>
             </tr>
             <tr>
                 <td>
                     Sponsor Name</td>
                 <td>
-                    <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblSponsorName" runat="server" Text=""></asp:Label>
                 </td>
                 <td>
                     My Sponsor ID</td>
                 <td>
-                    <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblMySponsorID" runat="server" Text=""></asp:Label>
                 </td>
             </tr>
             <tr>
                 <td>
                     Email Address</td>
                 <td>
-                    <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblEmailAddress" runat="server" Text=""></asp:Label>
                 </td>
                 <td>
                     Agent Code</td>
                 <td>
-                    <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblAgentCode" runat="server" Text=""></asp:Label>
                 </td>
             </tr>
             <tr>
@@ -92,7 +92,7 @@
                     Bank Account No:
                 </td>
                 <td colspan="3">
-                    <asp:Label ID="Label10" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblBankAccountNo" runat="server" Text=""></asp:Label>
                 </td>
             
             </tr>
@@ -101,7 +101,7 @@
                     Current Balance
                 </td>
                 <td colspan="3">
-                    <asp:Label ID="Label11" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblCurrentBalance" runat="server" Text=""></asp:Label>
                 </td>            
             </tr>
             <tr>
@@ -109,7 +109,7 @@
                     Total WithDraw:
                 </td>
                 <td colspan="3">
-                    <asp:Label ID="Label12" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblTotalWithDraw" runat="server" Text=""></asp:Label>
                 </td>            
             </tr>
             <tr>
@@ -117,7 +117,7 @@
                     Total Income
                 </td>
                 <td colspan="3">
-                    <asp:Label ID="Label13" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblTotalIncome" runat="server" Text=""></asp:Label>
                 </td>            
             </tr>
             <tr>
@@ -125,7 +125,7 @@
                     Unpaid Withdraw
                 </td>
                 <td colspan="3">
-                    <asp:Label ID="Label14" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="lblUnpaidWithdraw" runat="server" Text=""></asp:Label>
                 </td>            
             </tr>
         </table>

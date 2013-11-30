@@ -28,7 +28,6 @@ namespace LMLApp
             {
                 Session["UserName"] = userNameTextBox.Text.Trim();
                 Session["Password"] = passwordTextBox.Text.Trim();
-                Session["CustomerID"] = listofSecret[0].CustomerID;
                 Response.Redirect("~/Default.aspx");
             }
             else

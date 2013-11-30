@@ -29,7 +29,7 @@ namespace LMLApp.MLMCore
             get;
             set;
         }
-        public int CustomerID
+        public string CustomerID
         {
             get;
             set;
